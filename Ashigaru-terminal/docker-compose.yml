@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: ashigaru_terminal_1
+      APP_PORT: 7682
+  
+  web:
+    image: ghcr.io/thenymman/ashi-t:edge@sha256:3c71a278c0a8c8f6971374fbd0eba0b416dbe1ccdb83d34452d82ed89e164b5d
+    restart: on-failure
+    stop_grace_period: 1m
