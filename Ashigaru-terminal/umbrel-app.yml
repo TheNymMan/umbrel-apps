@@ -1,32 +1,23 @@
 manifestVersion: 1
 id: ashigaru-terminal
-category: finance
-name: BTC RPC Explorer
-version: "3.3.0"
-tagline: Simple, database-free blockchain explorer
+category: bitcoin
+name: Ashigaru Terminal
+version: "1.0.0"
+tagline: A non-custodial, dedicated Ashigaru Whirlpool client
 description: >-
-  BTC RPC Explorer is a full-featured, self-hosted explorer for the
-  Bitcoin blockchain. With this explorer, you can explore not just the
-  blockchain database, but also explore the functional capabilities of your
-  Umbrel.
-
-  It comes with a network summary dashboard, detailed view of blocks, transactions, addresses, along with analysis tools for viewing stats on miner activity, mempool summary, with fee, size, and age breakdowns. You can also search by transaction ID, block hash/height, and addresses.
-
-  It's time to appreciate the "fullness" of your node.
+  Ashigaru Terminal is a non-custodial, dedicated Ashigaru Whirlpool 
+  client which allows users to enter pools of their choice and continue to 
+  build their forward and backwards anonymity sets whilst being in full 
+  control of their funds during every stage of coinjoin cycles. There is 
+  no requirement to run your own Dojo server.
 releaseNotes: >-
-  Dark mode is finally here! Easily switch between your preferred mode
-  in one click.
-
-  This version also includes lots of minor styling improvements, better
-  error handling, and several bugfixes.
-developer: Dan Janosik
-website: https://explorer.btc21.org
-dependencies:
-  - bitcoin
-  - electrs
-repo: https://github.com/janoside/btc-rpc-explorer
-support: https://github.com/janoside/btc-rpc-explorer/discussions
-port: 3002
+  Release notes can be found on the official Ashigaru website: https://ashigaru.rs/news/release-terminal-v1-0-0/.
+developer: The Ashigaru Open Source Project
+website: https://ashigaru.rs
+repo: http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru
+support: https://ashigaru.rs/contact/
+port: 7682
+dependencies: []
 gallery:
   - 1.jpg
   - 2.jpg
@@ -34,5 +25,4 @@ gallery:
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel/pull/334
+submitter: TheNymMan
